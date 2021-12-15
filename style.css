@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #3d3d3d;
+  font-weight: 400;
+}
+.first-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #949494;
+}
+.shipping {
+  margin-left: 100px;
+  padding: 10px;
+}
+#nav {
+  border-right: 0.5px solid #949494;
+  padding-right: 10px;
+  justify-content: space-between;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  margin-right: 100px;
+}
+li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 30px;
+}
+#menu {
+  padding-top: 20px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin: 0 100px;
+}
+input {
+  width: 193px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 10px;
+  border: 1px solid #f7f7f7;
+  font-family: inherit;
+  color: #949494;
+  background: #f7f7f7;
+}
+.hero-page {
+  background: rgba(0, 0, 0, 0.048);
+  display: flex;
+}
+.note1 {
+  margin: 100px 0 100px 100px;
+}
+.sneakers1 {
+  margin: 100px 100px 100px 0;
+}
+h2 {
+  font-size: 72px;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+h1 {
+  font-size: 72px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+#shop-now {
+  background: #000000;
+  color: #ffffff;
+  font-family: inherit;
+  height: 50px;
+  width: 147px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.our-collection {
+  margin-top: 200px;
+  text-align: center;
+}
+.logo{
+    width: 130px;
+    height: 57.86px;
+    margin-bottom: 10px;
+}
+.default {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1010px;
+  transform: translateY(70px);
+  border: 1px solid #949494;
+  padding: 10px;
+  width: 224px;
+  height: 50px;
+  border-radius: 15px;
+  color: #949494;
+  cursor: pointer;
+}
+.arrow3 {
+  height: 5px;
+  transform: translate(-20px, 10px);
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #000000;
+}
+.pl1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+h5 {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+}
+h6 {
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+  color: #949494;
+}
+.pl2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+.pricing {
+  transform: translateY(-20px);
+}
+.shoe8 {
+  transform: translateY(45px);
+}
+.num8 {
+  transform: translateY(10px);
+}
+.shoe7 {
+  transform: translateY(-30px);
+}
+.num7 {
+  transform: translateY(-30px);
+}
+#view-collection {
+  width: 181px;
+  height: 50px;
+  font-family: inherit;
+  font-weight: 400;
+  border-radius: 15px;
+  font-size: 16px;
+  background: transparent;
+  cursor: pointer;
+  color: #3d3d3d;
+}
+.new-release-section {
+  background: rgba(0, 0, 0, 0.048);
+  display: flex;
+}
+.release {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+}
+#buy-now {
+  background: #000000;
+  color: #ffffff;
+  font-family: inherit;
+  height: 50px;
+  width: 147px;
+  border-radius: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.note2 {
+  text-align: left;
+  margin: 100px 100px 100px 0;
+  font-family: "Poppins", sans-serif;
+}
+.sneakers2 {
+  margin: 70px 100px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 100px;
+  cursor: default;
+}
+.social {
+  display: flex;
+}
+.icons {
+  margin-right: 10px;
+}
+.footer2 {
+  background: #000000;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  font-family: "Cabin", sans-serif;
+}
+.copyright,
+.logo2 {
+  margin: 50px 100px;
+  cursor: default;
+}
+/* pseudo Elements */
+.email::first-line {
+  color: #000000;
+  font-weight: 600;
+}
+.collection1:hover {
+  background: rgba(50, 50, 50, 0.267);
+  cursor: pointer;
+  transition: 0.6s ease-in;
+}
+li:hover {
+  cursor: pointer;
+  transition: 0.6s ease-in;
+  color: #000000;
+}
+input:hover {
+  background: #ececec;
+  transition: 0.6s ease-in;
+}
+#view-collection:hover {
+  background: #ececec;
+  transition: 0.6s ease-in;
+}
+#buy-now:hover {
+  transform: translateY(-3px);
+  transition: 0.6s ease-in;
+}
+#shop-now:hover {
+  transform: translateY(-3px);
+  transition: 0.6s ease-in;
+}
+.about:hover {
+  color: #000000;
+  cursor: pointer;
+  transition: ease-in;
+}
